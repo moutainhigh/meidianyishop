@@ -1,0 +1,716 @@
+[
+  {
+    "enName": "enNameList",
+    "name": "所有的enName",
+    "linkUrl": "",
+    "topIndex": -1,
+    "includeApi": [
+      "shop_view",
+      "analysis_basic",
+      "situation",
+      "sales_report",
+      "anchor_points",
+      "analysis_portrait",
+      "analysis_visit",
+      "analysis_visit_source",
+      "user_summary",
+      "goods_summary",
+      "trades_summary",
+      "search_summary",
+      "picture_setting",
+      "page_classification",
+      "image_list",
+      "video_list",
+      "shop_style",
+      "image_manager",
+      "user_center_config",
+      "search_config",
+      "mp_jump_list",
+      "sale_on",
+      "deliver",
+      "sort",
+      "comment",
+      "recommend",
+      "label",
+      "brand",
+      "order",
+      "check_order",
+      "member_card_order",
+      "pin_group",
+      "kanjia",
+      "distribution_info",
+      "group_draw",
+      "pin_integration",
+      "lottery_activity",
+      "insteadpay",
+      "promote",
+      "give_gift",
+      "share_award",
+      "market_act",
+      "coupon_package",
+      "reduce_price",
+      "payreward",
+      "first_special",
+      "presale",
+      "sec_kill",
+      "gift",
+      "full_cut",
+      "package",
+      "purchase_price",
+      "free_ship",
+      "integral_convert",
+      "market_gifted",
+      "comment_gift",
+      "collect",
+      "form_decoration",
+      "assess",
+      "market_act_give",
+      "business_template_message",
+      "channel",
+      "user_list",
+      "user_import",
+      "user_card",
+      "user_tag",
+      "score",
+      "store_list",
+      "store_verify",
+      "add_store",
+      "group_manage",
+      "store_service_config",
+      "config_list",
+      "pay",
+      "child_config",
+      "message_config",
+      "third_auth",
+      "pledge",
+      "prescription_list",
+      "doctor_list",
+      "department_list",
+      "title_list"
+    ]
+  },
+  {
+    "enName": "shop_view",
+    "name": "商城概览",
+    "linkUrl": "/admin/survey/overview",
+    "topIndex": 0,
+    "includeApi": []
+  },
+  {
+    "enName": "analysis_basic",
+    "name": "概况统计",
+    "linkUrl": "/admin/survey/analysis",
+    "topIndex": 0,
+    "includeApi": []
+  },
+  {
+    "enName": "situation",
+    "name": "实时概况",
+    "linkUrl": "/admin/survey/situation",
+    "topIndex": 0,
+    "includeApi": []
+  },
+  {
+    "enName": "sales_report",
+    "name": "销售报表",
+    "linkUrl": "/admin/survey/report",
+    "topIndex": 0,
+    "includeApi": []
+  },
+  {
+    "enName": "anchor_points",
+    "name": "埋点列表",
+    "linkUrl": "/admin/survey/anchor",
+    "topIndex": 0,
+    "includeApi": []
+  },
+  {
+    "enName": "anchor_points_report",
+    "name": "埋点报表",
+    "linkUrl": "/admin/survey/anchor/report",
+    "topIndex": 0,
+    "includeApi": []
+  },
+  {
+    "enName": "analysis_portrait",
+    "name": "用户画像",
+    "linkUrl": "/admin/survey/portrait",
+    "topIndex": 0,
+    "includeApi": []
+  },
+  {
+    "enName": "analysis_visit",
+    "name": "访问分析",
+    "linkUrl": "/admin/survey/second",
+    "topIndex": 0,
+    "includeApi": []
+  },
+  {
+    "enName": "analysis_visit_source",
+    "name": "来源分析",
+    "linkUrl": "/admin/survey/visit",
+    "topIndex": 0,
+    "includeApi": []
+  },
+  {
+    "enName": "user_summary",
+    "name": "用户统计",
+    "linkUrl": "/admin/survey/user",
+    "topIndex": 0,
+    "includeApi": []
+  },
+  {
+    "enName": "goods_summary",
+    "name": "商品统计",
+    "linkUrl": "/admin/survey/goods",
+    "topIndex": 0,
+    "includeApi": []
+  },
+  {
+    "enName": "trades_summary",
+    "name": "交易统计",
+    "linkUrl": "/admin/survey/trades",
+    "topIndex": 0,
+    "includeApi": []
+  },
+  {
+    "enName": "advisoryTotal",
+    "name": "咨询统计",
+    "topIndex": 0
+  },
+  // {
+  // 	"enName": "asset_summary",
+  // 	"name": "资产管理",
+  // 	"linkUrl": "/admin/survey/asset",
+  // 	"topIndex": 0,
+  // 	"includeApi": []
+
+  // },
+  {
+    "enName": "search_summary",
+    "name": "搜索统计",
+    "linkUrl": "/admin/survey/search",
+    "topIndex": 0,
+    "includeApi": []
+  },
+  {
+    "enName": "picture_setting",
+    "name": "页面装修",
+    "linkUrl": "/admin/manage/decorate",
+    "topIndex": 1,
+    "includeApi": []
+  },
+  {
+    "enName": "page_classification",
+    "name": "页面分类",
+    "linkUrl": "/admin/manage/classification",
+    "topIndex": 1,
+    "includeApi": []
+  },
+  {
+    "enName": "image_list",
+    "name": "图片空间",
+    "linkUrl": "/admin/manage/image",
+    "topIndex": 1,
+    "includeApi": []
+  },
+  {
+    "enName": "video_list",
+    "name": "视频空间",
+    "linkUrl": "/admin/manage/video",
+    "topIndex": 1,
+    "includeApi": []
+  },
+  {
+    "enName": "shop_style",
+    "name": "店铺风格",
+    "linkUrl": "/admin/manage/shopstyle",
+    "topIndex": 1,
+    "includeApi": []
+  },
+  {
+    "enName": "image_manager",
+    "name": "底部导航",
+    "linkUrl": "/admin/manage/bottom",
+    "topIndex": 1,
+    "includeApi": []
+  },
+  {
+    "enName": "user_center_config",
+    "name": "个人中心",
+    "linkUrl": "/admin/config/usercenter",
+    "topIndex": 1,
+    "includeApi": []
+  },
+  {
+    "enName": "search_config",
+    "name": "搜索配置",
+    "linkUrl": "/admin/config/search",
+    "topIndex": 1,
+    "includeApi": []
+  },
+  {
+    "enName": "mp_jump_list",
+    "name": "小程序跳转",
+    "linkUrl": "/admin/manage/jump",
+    "topIndex": 1,
+    "includeApi": []
+  },
+  {
+    "enName": "sale_on",
+    "name": "商品管理",
+    "linkUrl": "/admin/goods/manage",
+    "topIndex": 2,
+    "includeApi": []
+  },
+  {
+    "enName": "deliver",
+    "name": "运费模板",
+    "linkUrl": "/admin/goods/deliver",
+    "topIndex": 2,
+    "includeApi": []
+  },
+  {
+    "enName": "sort",
+    "name": "商家分类管理",
+    "linkUrl": "/admin/goods/sort",
+    "topIndex": 2,
+    "includeApi": ["/api/admin/goods/sort/*"]
+  },
+  {
+    "enName": "comment",
+    "name": "评价管理",
+    "linkUrl": "/admin/goods/comment",
+    "topIndex": 2,
+    "includeApi": []
+  },
+  {
+    "enName": "recommend",
+    "name": "商品推荐",
+    "linkUrl": "/admin/goods/recommend",
+    "topIndex": 2,
+    "includeApi": []
+  },
+  {
+    "enName": "label",
+    "name": "商品标签",
+    "linkUrl": "/admin/goods/label",
+    "topIndex": 2,
+    "includeApi": []
+  },
+  {
+    "enName": "brand",
+    "name": "商品品牌",
+    "linkUrl": "/admin/goods/brand",
+    "topIndex": 2,
+    "includeApi": []
+  },
+  {
+    "enName": "order",
+    "name": "订单管理",
+    "linkUrl": "/admin/orders/manage",
+    "topIndex": 3,
+    "includeApi": []
+  },
+  {
+    "enName": "check_order",
+    "name": "买单订单",
+    "linkUrl": "/admin/orders/check",
+    "topIndex": 3,
+    "includeApi": []
+  },
+  {
+    "enName": "member_card_order",
+    "name": "会员卡订单",
+    "linkUrl": "/admin/orders/card",
+    "topIndex": 3,
+    "includeApi": []
+  },
+  {
+    "enName": "patient_list",
+    "name": "患者管理",
+    "topIndex": 7
+  },
+  {
+    "enName": "pin_group",
+    "linkUrl": "/admin/market/pingroup",
+    "name": "多人拼团",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "kanjia",
+    "linkUrl": "/admin/market/bargain",
+    "name": "砍价",
+    "topIndex": 4,
+    "includeApi": ["/api/admin/market/bargain/*"]
+  },
+  {
+    "enName": "distribution_info",
+    "linkUrl": "/admin/market/distribution",
+    "name": "分销",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "group_draw",
+    "linkUrl": "/admin/market/groupdraw",
+    "name": "拼团抽奖",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "pin_integration",
+    "linkUrl": "/admin/market/integration",
+    "name": "组团瓜分积分",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "lottery_activity",
+    "linkUrl": "/admin/market/lottery",
+    "name": "幸运大抽奖",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "insteadpay",
+    "linkUrl": "/admin/market/insteadpay",
+    "name": "好友代付",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "promote",
+    "linkUrl": "/admin/market/promote",
+    "name": "好友助力",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "give_gift",
+    "linkUrl": "/admin/market/givegift",
+    "name": "我要送礼",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "share_award",
+    "linkUrl": "/admin/market/shareaward",
+    "name": "分享有礼",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "market_act",
+    "name": "普通优惠券",
+    "linkUrl": "/admin/market/coupon",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "coupon_package",
+    "linkUrl": "/admin/market/couponpackage",
+    "name": "优惠券礼包",
+    "topIndex": 4,
+    "includeApi": ["/api/admin/market/couponpack/*"]
+  },
+  {
+    "enName": "reduce_price",
+    "linkUrl": "/admin/market/reduce",
+    "name": "限时降价",
+    "topIndex": 4,
+    "includeApi": ["/api/admin/market/reduceprice/*"]
+  },
+  {
+    "enName": "payreward",
+    "linkUrl": "/admin/market/payreward",
+    "name": "支付有礼",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "first_special",
+    "linkUrl": "/admin/market/first",
+    "name": "首单特惠",
+    "topIndex": 4,
+    "includeApi": ["/api/admin/market/firstspecial/*"]
+  },
+  {
+    "enName": "presale",
+    "linkUrl": "/admin/market/presale",
+    "name": "定金膨胀",
+    "topIndex": 4,
+    "includeApi": ["/api/admin/market/pre_sale/*"]
+  },
+  {
+    "enName": "sec_kill",
+    "linkUrl": "/admin/market/seckill",
+    "name": "秒杀",
+    "topIndex": 4,
+    "includeApi": ["/api/admin/market/seckill/*"]
+  },
+  {
+    "enName": "gift",
+    "linkUrl": "/admin/market/gift",
+    "name": "赠品",
+    "topIndex": 4,
+    "includeApi": ["/api/admin/market/gift/*"]
+  },
+  {
+    "enName": "full_cut",
+    "linkUrl": "/admin/market/fullcut",
+    "name": "满折满减",
+    "topIndex": 4,
+    "includeApi": ["/api/admin/market/fullcut/*"]
+  },
+  {
+    "enName": "package",
+    "linkUrl": "/admin/market/package",
+    "name": "打包一口价",
+    "topIndex": 4,
+    "includeApi": ["/api/admin/market/packsale/*"]
+  },
+  {
+    "enName": "purchase_price",
+    "linkUrl": "/admin/market/purchase",
+    "name": "加价购",
+    "topIndex": 4,
+    "includeApi": ["/api/admin/market/increasepurchase/*"]
+  },
+  {
+    "enName": "free_ship",
+    "linkUrl": "/admin/market/ship",
+    "name": "满包邮",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "integral_convert",
+    "linkUrl": "/admin/market/integral",
+    "name": "积分兑换",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "market_gifted",
+    "name": "开屏有礼",
+    "linkUrl": "/admin/market/activityreward",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "comment_gift",
+    "linkUrl": "/admin/market/comment",
+    "name": "评价有礼",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "collect",
+    "linkUrl": "/admin/shop/collect",
+    "name": "收藏有礼",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "form_decoration",
+    "linkUrl": "/admin/market/form",
+    "name": "表单统计",
+    "topIndex": 4,
+    "includeApi": ["/api/admin/formstatistics/*"]
+  },
+  {
+    "enName": "assess",
+    "linkUrl": "/admin/market/assess",
+    "name": "测评",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "market_act_give",
+    "name": "定向发劵",
+    "linkUrl": "/admin/market/grant",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "business_template_message",
+    "linkUrl": "/admin/market/message",
+    "name": "消息推送",
+    "topIndex": 4,
+    "includeApi": ["/api/admin/market/message/template/*"]
+  },
+  {
+    "enName": "channel",
+    "linkUrl": "/admin/market/channel",
+    "name": "渠道页面分析",
+    "topIndex": 4,
+    "includeApi": ["/api/admin/market/channel/*"]
+  },
+  {
+    "enName": "user_list",
+    "name": "会员列表",
+    "linkUrl": "/admin/user/manage",
+    "topIndex": 5,
+    "includeApi": []
+  },
+  {
+    "enName": "user_import",
+    "name": "会员导入",
+    "linkUrl": "/admin/user/import",
+    "topIndex": 5,
+    "includeApi": []
+  },
+  {
+    "enName": "user_card",
+    "name": "会员卡",
+    "linkUrl": "/admin/user/member",
+    "topIndex": 5,
+    "includeApi": []
+  },
+  {
+    "enName": "user_tag",
+    "name": "标签管理",
+    "linkUrl": "/admin/tag/list",
+    "topIndex": 5,
+    "includeApi": []
+  },
+  {
+    "enName": "score",
+    "name": "积分管理",
+    "linkUrl": "/admin/user/score",
+    "topIndex": 5,
+    "includeApi": []
+  },
+  {
+    "enName": "store_list",
+    "name": "门店管理",
+    "linkUrl": "/admin/store/manage",
+    "topIndex": 6,
+    "includeApi": [
+      "/api/admin/store/list",
+      "/api/admin/store/add",
+      "/api/admin/store/update",
+      "/api/admin/store/del"
+    ]
+  },
+  {
+    "enName": "store_verify",
+    "name": "管理员核销",
+    "linkUrl": "/admin/store/verification",
+    "topIndex": 6,
+    "includeApi": ["api/admin/store/verifier/*"]
+  },
+  {
+    "enName": "add_store",
+    "name": "门店商品管理",
+    "linkUrl": "/admin/store/goods",
+    "topIndex": 6,
+    "includeApi": ["/api/admin/store/goods/*"]
+  },
+  {
+    "enName": "group_manage",
+    "name": "分组管理",
+    "linkUrl": "/admin/store/group",
+    "topIndex": 6,
+    "includeApi": ["/api/admin/store/group/*"]
+  },
+  {
+    "enName": "store_service_config",
+    "name": "门店服务配置",
+    "linkUrl": "/admin/store/config",
+    "topIndex": 6,
+    "includeApi": ["/api/admin/store/config/*"]
+  },
+  {
+    "enName": "store_permission",
+    "name": "门店权限",
+    "topIndex": 6
+  },
+  {
+    "enName": "store_announcement",
+    "name": "门店公告",
+    "topIndex": 6
+  },
+  {
+    "enName": "config_list",
+    "name": "店铺基础配置",
+    "linkUrl": "/admin/config/shop",
+    "topIndex": 7,
+    "includeApi": []
+  },
+  {
+    "enName": "pay",
+    "name": "交易配置",
+    "linkUrl": "/admin/config/trade",
+    "topIndex": 7,
+    "includeApi": []
+  },
+  {
+    "enName": "child_config",
+    "name": "店铺权限",
+    "linkUrl": "/admin/config/role",
+    "topIndex": 7,
+    "includeApi": []
+  },
+  {
+    "enName": "message_config",
+    "name": "模板消息",
+    "linkUrl": "/admin/config/message",
+    "topIndex": 7,
+    "includeApi": ["/api/admin/config/message/template/*"]
+  },
+  {
+    "enName": "third_auth",
+    "name": "第三方对接",
+    "linkUrl": "/admin/config/third",
+    "topIndex": 7,
+    "includeApi": []
+  },
+  {
+    "enName": "pledge",
+    "name": "服务承诺",
+    "linkUrl": "/admin/config/pledge",
+    "topIndex": 7,
+    "includeApi": ["/api/admin/config/pledge/*"]
+  },
+  {
+    "enName": "smsConfig",
+    "name": "短信中心",
+    "topIndex": 7
+  },
+  {
+    "enName": "rebateConfig",
+    "name": "返利配置",
+    "topIndex": 8
+  },
+  {
+    "enName": "prescription_list",
+    "name": "处方列表",
+    "linkUrl": "/api/admin/prescription/list",
+    "topIndex": 8,
+    "includeApi": ["/api/admin/prescription/*"]
+  },
+  {
+    "enName": "doctor_list",
+    "name": "医师列表",
+    "linkUrl": "/api/admin/doctors/list",
+    "topIndex": 9,
+    "includeApi": ["/api/admin/doctors/*"]
+  },
+  {
+    "enName": "department_list",
+    "name": "科室列表",
+    "linkUrl": "/api/admin/doctor/department/list",
+    "topIndex": 9,
+    "includeApi": ["/api/admin/doctor/department/*"]
+  },
+  {
+    "enName": "title_list",
+    "name": "职称列表",
+    "linkUrl": "/api/admin/doctor/title/list",
+    "topIndex": 9,
+    "includeApi": ["/api/admin/doctor/title/*"]
+  }
+]

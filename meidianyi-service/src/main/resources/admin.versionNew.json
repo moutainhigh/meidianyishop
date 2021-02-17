@@ -1,0 +1,535 @@
+[
+	{
+		"vsName": "vsNameList",
+		"name": "所有的版本功能",
+		"enName": "",
+		"topIndex": -1,
+		"includeApi": [
+			"basic_yesterday",
+			"portrait_user",
+			"second_view",
+			"visit_source",
+			"analysis_visit_source",
+			"sort",
+			"m_member_card",
+			"m_voucher",
+			"m_bargain",
+			"m_video",
+			"m_integral_goods",
+			"m_seckill_goods",
+			"authorization",
+			"m_group_draw",
+			"m_pin_integration",
+			"m_nav",
+			"charge_card",
+			"count_card",
+			"grade_card",
+			"tag",
+			"sign_score",
+			"pay_score",
+			"full_cut",
+			"pin_group",
+			"bargain",
+			"form_decoration",
+			"distribution",
+			"message_template",
+			"pay_reward",
+			"coupon_grant",
+			"activity_reward",
+			"integral_goods",
+			"reduce_price",
+			"seckill_goods",
+			"lottery",
+			"purchase_price",
+			"group_draw",
+			"pin_integration",
+			"package_sale",
+			"pre_sale",
+			"insteadpay",
+			"gift",
+			"promote",
+			"assess",
+			"free_ship",
+			"coupon_package",
+			"comment_gift",
+			"first_special",
+			"give_gift",
+			"share_award",
+			"store_pay",
+			"technician",
+			"service",
+			"service_city"
+		]
+	},
+	{
+		"vsName": "basic_yesterday",
+		"name": "概况统计",
+		"enName": "analysis_basic",
+		"topIndex": 0,
+		"includeApi": [
+			"/api/admin/overview/analysis/*"
+		]
+	},
+	{
+		"vsName": "portrait_user",
+		"name": "用户画像",
+		"enName": "analysis_portrait",
+		"topIndex": 0,
+		"includeApi": [
+			"/api/admin/summary/portrait/*"
+		]
+	},
+	{
+		"vsName": "second_view",
+		"name": "访问分析",
+		"enName": "analysis_visit",
+		"topIndex": 0,
+		"includeApi": [
+			"/api/admin/summary/visit/*"
+		]
+	},
+	{
+		"vsName": "visit_source",
+		"name": "来源分析",
+		"enName": "analysis_visit_source",
+		"topIndex": 0,
+		"includeApi": [
+			"/api/admin/summary/source/*"
+		]
+	},
+	{
+		"vsName": "analysis_visit_source",
+		"name": "交易统计",
+		"enName": "trades_summary",
+		"topIndex": 0,
+		"includeApi": [
+			"/api/admin/transactionstatistics/*"
+		]
+	},
+	{
+		"vsName": "sort",
+		"name": "商家分类",
+		"enName": "sort",
+		"topIndex": 1,
+		"includeApi": [
+			"/api/admin/goods/sort/*"
+		]
+	},
+	{
+		"vsName": "m_member_card",
+		"name": "会员卡模块",
+		"enName": "picture_setting",
+		"topIndex": 2,
+		"includeApi": []
+	},
+	{
+		"vsName": "m_voucher",
+		"name": "优惠券模块",
+		"enName": "picture_setting",
+		"topIndex": 2,
+		"includeApi": []
+	},
+	{
+		"vsName": "m_bargain",
+		"name": "砍价模块",
+		"enName": "picture_setting",
+		"topIndex": 2,
+		"includeApi": []
+	},
+	{
+		"vsName": "m_video",
+		"name": "视频模块",
+		"enName": "picture_setting",
+		"topIndex": 2,
+		"includeApi": []
+	},
+	{
+		"vsName": "m_integral_goods",
+		"name": "积分商品模块",
+		"enName": "picture_setting",
+		"topIndex": 2,
+		"includeApi": []
+	},
+	{
+		"vsName": "m_seckill_goods",
+		"name": "秒杀模块",
+		"enName": "picture_setting",
+		"topIndex": 2,
+		"includeApi": []
+	},
+	{
+		"vsName": "authorization",
+		"name": "微信公众号授权",
+		"enName": "picture_setting",
+		"topIndex": 2,
+		"includeApi": []
+	},
+	{
+		"vsName": "m_group_draw",
+		"name": "拼团抽奖",
+		"enName": "picture_setting",
+		"topIndex": 2,
+		"includeApi": []
+	},
+	{
+		"vsName": "m_pin_integration",
+		"name": "瓜分积分",
+		"enName": "picture_setting",
+		"topIndex": 2,
+		"includeApi": []
+	},
+	{
+		"vsName": "m_nav",
+		"name": "顶部导航模板",
+		"enName": "picture_setting",
+		"topIndex": 2,
+		"includeApi": []
+	},
+	{
+		"vsName": "charge_card",
+		"name": "充值会员卡",
+		"enName": "user_card",
+		"topIndex": 3,
+		"includeApi": [
+			"/api/admin/member/card/list"
+		]
+	},
+	{
+		"vsName": "count_card",
+		"name": "限次会员卡",
+		"enName": "user_card",
+		"topIndex": 3,
+		"includeApi": [
+			"/api/admin/member/card/list"
+		]
+	},
+	{
+		"vsName": "grade_card",
+		"name": "等级会员卡",
+		"enName": "user_card",
+		"topIndex": 3,
+		"includeApi": [
+			"/api/admin/member/card/list"
+		]
+	},
+	{
+		"vsName": "tag",
+		"name": "会员标签",
+		"enName": "user_tag",
+		"topIndex": 3,
+		"includeApi": [
+			"/api/admin/tag/*",
+			"/api/admin/common/tag/list"
+		]
+	},
+	{
+		"vsName": "sign_score",
+		"name": "签到送积分",
+		"enName": "score",
+		"topIndex": 3,
+		"includeApi": []
+	},
+	{
+		"vsName": "pay_score",
+		"name": "买单送积分",
+		"enName": "score",
+		"topIndex": 3,
+		"includeApi": []
+	},
+	{
+		"vsName": "full_cut",
+		"name": "满折满减",
+		"topIndex": 4,
+		"enName": "full_cut",
+		"includeApi": [
+			"/api/admin/market/fullcut/*"
+		]
+	},
+	{
+		"vsName": "pin_group",
+		"name": "拼团",
+		"enName": "pin_group",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/groupbuy/*"
+		]
+	},
+	{
+		"vsName": "bargain",
+		"name": "砍价",
+		"enName": "kanjia",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/bargain/*"
+		]
+	},
+	{
+		"vsName": "form_decoration",
+		"name": "表单统计",
+		"enName": "form_decoration",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/formstatistics/*"
+		]
+	},
+	{
+		"vsName": "distribution",
+		"name": "分销",
+		"enName": "distribution_info",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/distribution/*"
+		]
+	},
+	{
+		"vsName": "message_template",
+		"name": "消息推送",
+		"enName": "business_template_message",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/message/template/*"
+		]
+	},
+	{
+		"vsName": "pay_reward",
+		"name": "支付有礼",
+		"enName": "payreward",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/payaward/*"
+		]
+	},
+	{
+		"vsName": "coupon_grant",
+		"name": "定向发券",
+		"enName": "market_act_give",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/coupon/give/*"
+		]
+	},
+	{
+		"vsName": "activity_reward",
+		"name": "活动有礼",
+		"enName": "market_gifted",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/coopen/list/*"
+		]
+	},
+	{
+		"vsName": "integral_goods",
+		"name": "积分商品",
+		"enName": "integral_convert",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/integral/convert/*"
+		]
+	},
+	{
+		"vsName": "reduce_price",
+		"name": "限时降价",
+		"enName": "reduce_price",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/reduceprice/*"
+		]
+	},
+	{
+		"vsName": "seckill_goods",
+		"name": "秒杀",
+		"enName": "sec_kill",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/seckill/*"
+		]
+	},
+	{
+		"vsName": "lottery",
+		"name": "抽奖",
+		"enName": "lottery_activity",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/lottery/*"
+		]
+	},
+	{
+		"vsName": "purchase_price",
+		"name": "加价购",
+		"enName": "purchase_price",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/increasepurchase/*"
+		]
+	},
+	{
+		"vsName": "group_draw",
+		"name": "拼团抽奖",
+		"enName": "group_draw",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/group_draw/*"
+		]
+	},
+	{
+		"vsName": "pin_integration",
+		"name": "组队瓜分积分",
+		"enName": "pin_integration",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/integration/*"
+		]
+	},
+	{
+		"vsName": "package_sale",
+		"name": "打包一口价",
+		"enName": "package",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/packsale/*"
+		]
+	},
+	{
+		"vsName": "pre_sale",
+		"name": "定金膨胀",
+		"enName": "presale",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/pre_sale/*"
+		]
+	},
+	{
+		"vsName": "insteadpay",
+		"name": "好友代付",
+		"enName": "insteadpay",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/instead/pay/set",
+			"/api/admin/market/instead/pay/get"
+		]
+	},
+	{
+		"vsName": "gift",
+		"name": "赠品策略",
+		"enName": "gift",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/gift/*"
+		]
+	},
+	{
+		"vsName": "promote",
+		"name": "好友助力",
+		"enName": "promote",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/promote/*"
+		]
+	},
+	{
+		"vsName": "assess",
+		"name": "测评",
+		"enName": "assess",
+		"topIndex": 4,
+		"includeApi": []
+	},
+	{
+		"vsName": "free_ship",
+		"name": "满包邮",
+		"enName": "free_ship",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/free/shipping/*"
+		]
+	},
+	{
+		"vsName": "coupon_package",
+		"name": "优惠券包",
+		"enName": "coupon_package",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/couponpack/*"
+		]
+	},
+	{
+		"vsName": "comment_gift",
+		"name": "评价有礼",
+		"enName": "comment_gift",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/comment/award/*"
+		]
+	},
+	{
+		"vsName": "first_special",
+		"name": "首单特惠",
+		"enName": "first_special",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/firstspecial/*"
+		]
+	},
+	{
+		"vsName": "give_gift",
+		"name": "我要送礼",
+		"enName": "give_gift",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/marker/givegift/*"
+		]
+	},
+	{
+		"vsName": "share_award",
+		"name": "分享有礼",
+		"enName": "share_award",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/sharereward/*"
+		]
+	},
+	{
+		"vsName": "wx_mcode",
+		"name": "一物一码",
+		"enName": "wx_mcode",
+		"topIndex": 4,
+		"includeApi": []
+	},
+	{
+		"vsName": "live_broadcast",
+		"name": "直播 ",
+		"enName": "live_broadcast",
+		"topIndex": 4,
+		"includeApi": [
+			"/api/admin/market/live/*",
+			"/api/admin/market/goods/edit/live/list"
+		]
+	},
+	{
+		"vsName": "store_pay",
+		"name": "门店买单",
+		"enName": "store_service_config",
+		"topIndex": 5,
+		"includeApi": []
+	},
+	{
+		"vsName": "technician",
+		"name": "技师管理",
+		"enName": "store_service_config",
+		"topIndex": 5,
+		"includeApi": []
+	},
+	{
+		"vsName": "service",
+		"name": "服务管理 ",
+		"enName": "store_service_config",
+		"topIndex": 5,
+		"includeApi": []
+	},
+	{
+		"vsName": "service_city",
+		"name": "同城配送",
+		"enName": "store_list",
+		"topIndex": 5,
+		"includeApi": []
+	}
+]

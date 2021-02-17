@@ -1,0 +1,13 @@
+authority : 
+  -
+    enName : enNameList
+    name : 所有的enName
+    linkUrl :
+    includeApi :
+      - shop_view
+      - analysis_basic 
+  -
+    enName : shop_view
+    name : 商城概览
+    linkUrl : /admin/survey/overview
+    includeApi : 

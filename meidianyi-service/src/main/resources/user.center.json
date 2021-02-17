@@ -1,0 +1,151 @@
+[
+	{
+		"module_name": "global",
+		"page_style": "1"
+	},
+	{
+		"module_name": "center_header",
+		"is_show": 1,
+		"bg_type": "0"
+	},
+	{
+		"module_name": "account_money",
+		"is_show": 1,
+		"title": "我的资产",
+		"content": [
+			{
+				"icon_name": "account",
+				"is_show": 1
+			},
+			{
+				"icon_name": "score",
+				"is_show": 1
+			},
+			{
+				"icon_name": "coupon",
+				"is_show": 1
+			},
+			{
+				"icon_name": "card",
+				"is_show": 1
+			}
+		]
+	},
+	{
+		"module_name": "order",
+		"is_show": 1,
+		"title": "我的订单",
+		"module_style": 1,
+		"content": [
+			{
+				"icon_name": "wait_pay",
+				"icon": "/image/admin/uc_config/uc_order_icon1.png",
+				"is_show": 1
+			},
+			{
+				"icon_name": "wait_deliver",
+				"icon": "/image/admin/uc_config/uc_order_icon2.png",
+				"is_show": 1
+			},
+			{
+				"icon_name": "wait_receive",
+				"icon": "/image/admin/uc_config/uc_order_icon3.png",
+				"is_show": 1
+			},
+			{
+				"icon_name": "wait_comment",
+				"icon": "/image/admin/uc_config/uc_order_icon4.png",
+				"is_show": 1
+			},
+			{
+				"icon_name": "refund",
+				"icon": "/image/admin/uc_config/uc_order_icon5.png",
+				"is_show": 1
+			}
+		]
+	},
+	{
+		"module_name": "appointment",
+		"is_show": 0,
+		"title": "我的预约"
+	},
+	{
+		"module_name": "use_record",
+		"is_show": 1,
+		"title": "使用记录",
+		"is_show_collect": 1,
+		"is_show_buy_history": 1,
+		"is_show_footprint": 1
+	},
+	{
+		"module_name": "service",
+		"title": "我的服务",
+		"is_show": 0,
+		"content": [
+			{
+				"is_show": 0,
+				"icon_name": "distribution",
+				"icon": "/image/admin/uc_config/icon_dis.png",
+				"link": "",
+				"link_name": ""
+			},
+			{
+				"is_show": 0,
+				"icon_name": "bargain",
+				"icon": "/image/admin/uc_config/icon_bargain.png",
+				"link": "",
+				"link_name": ""
+			},
+			{
+				"is_show": 0,
+				"icon_name": "award",
+				"icon": "/image/admin/uc_config/icon_award.png",
+				"link": "",
+				"link_name": ""
+			},
+			{
+				"is_show": 0,
+				"icon_name": "comment_list",
+				"icon": "/image/admin/uc_config/icon_comment.png",
+				"link": "",
+				"link_name": ""
+			},
+			{
+				"is_show": 0,
+				"icon_name": "store_list",
+				"icon": "/image/admin/uc_config/icon_store.png",
+				"link": "",
+				"link_name": ""
+			},
+			{
+				"is_show": 0,
+				"icon_name": "user_activate",
+				"icon": "/image/admin/uc_config/icon_member.png",
+				"link": "",
+				"link_name": ""
+			},
+			{
+				"is_show": 0,
+				"icon_name": "order_verify",
+				"icon": "/image/admin/uc_config/icon_scan.png",
+				"link": "",
+				"link_name": ""
+			},
+			{
+				"is_show": 0,
+				"icon_name": "present_list",
+				"icon": "/image/admin/uc_config/icon_pre.png",
+				"link": "",
+				"link_name": ""
+			},
+			{
+				"is_show": 0,
+				"icon_name": "custom_icon",
+				"icon": "/image/admin/uc_config/icon_ownset.png",
+				"title": "帮助中心",
+				"link": "",
+				"link_name": ""
+			}
+		]
+	}
+]

@@ -1,0 +1,129 @@
+{
+  "first_web_manage": [
+    "shop_view",
+    "analysis_basic",
+    "situation",
+    "sales_report",
+    "anchor_points",
+    "anchor_points_report",
+    "analysis_portrait",
+    "analysis_visit",
+    "analysis_visit_source",
+    "user_summary",
+    "goods_summary",
+    "trades_summary",
+    "search_summary",
+    "advisoryTotal"
+  ],
+  "first_web_decoration": [
+    "picture_setting",
+    "page_classification",
+    "image_list",
+    "video_list",
+    "shop_style",
+    "image_manager",
+    "user_center_config",
+    "search_config",
+    "mp_jump_list"
+  ],
+  "goods_manage": [
+    "sale_on",
+    "goods_add",
+    "deliver",
+    "sort",
+    "brand",
+    "comment",
+    "recommend",
+    "label",
+    "grasp_goods",
+    "goods_import"
+  ],
+  "first_trade_manage": [
+    "order",
+    "check_order",
+    "member_card_order",
+    "advisory_order"
+  ],
+  "first_market_manage": [
+    "kanjia",
+    "pin_group",
+    "market_gifted",
+    "payreward",
+    "lottery_activity",
+    "distribution_info",
+    "group_draw",
+    "pin_integration",
+    "sec_kill",
+    "market_act",
+    "market_act_give",
+    "full_cut",
+    "integral_convert",
+    "form_decoration",
+    "business_template_message",
+    "purchase_price",
+    "reduce_price",
+    "presale",
+    "package",
+    "insteadpay",
+    "collect",
+    "gift",
+    "channel",
+    "promote",
+    "free_ship",
+    "assess",
+    "coupon_package",
+    "comment_gift"
+  ],
+  "user_manger": [
+    "user_list",
+    "user_import",
+    "user_card",
+    "user_tag",
+    "score",
+    "patient_list"
+  ],
+  "store_manage": [
+    "store_list",
+    "store_verify",
+    "add_store",
+    "group_manage",
+    "store_service_config",
+    "store_permission",
+    "store_announcement"
+  ],
+  "base_manger": [
+    "user_center_config",
+    "search_config",
+    "config_list",
+    "pay",
+    "child_config",
+    "message_config",
+    "third_auth",
+    "action_record",
+    "pledge",
+    "smsConfig",
+    "rebateConfig"
+  ],
+  "prescription_manage": ["prescription_list"],
+  "doctor_manage": ["doctor_list", "department_list", "title_list"],
+  "plus": [
+    {
+      "en_name": "sale_on",
+      "pre_name": ["sale_on", "sale_end", "sale_off", "goods_add"]
+    },
+    {
+      "en_name": "order",
+      "pre_name": [
+        "order",
+        "order_wait",
+        "order_return",
+        "shop_setting",
+        "pin_group_fail"
+      ]
+    },
+    {
+      "en_name": "store_list",
+      "pre_name": ["store_list", "add_store"]
+    }
+  ]
+}

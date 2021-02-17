@@ -1,0 +1,126 @@
+[
+  {
+    "name": "门店概况",
+    "enName": "overView",
+    "check": 1,
+    "isOnly": 0,
+    "linkUrl": "/admin/store/shopView",
+    "sub": []
+  },
+  {
+    "name": "全部门店",
+    "enName": "storeList",
+    "linkUrl": "/admin/store/list",
+    "check": 1,
+    "isOnly": 0,
+    "sub": [
+      {
+        "enName": "storeList",
+        "name": "门店列表",
+        "linkUrl": "/admin/store/list",
+        "topIndex": 1,
+        "includeApi": ["/api/store/store/*"],
+        "check": 1,
+        "isOnly": 0
+      }
+    ]
+  },
+  {
+    "name": "门店商品",
+    "enName": "storeGoods",
+    "linkUrl": "/admin/store/goods",
+    "check": 1,
+    "isOnly": 0,
+    "sub": [
+      {
+        "enName": "storeGoods",
+        "name": "全部商品",
+        "linkUrl": "/admin/store/goods",
+        "topIndex": 2,
+        "includeApi": ["/api/store/goods/*"],
+        "check": 1,
+        "isOnly": 0
+      },
+      {
+        "enName": "saleOutGoods",
+        "name": "售罄商品",
+        "linkUrl": "/admin/store/goods/saleOut",
+        "topIndex": 2,
+        "includeApi": ["/api/store/goods/*"],
+        "check": 1,
+        "isOnly": 0
+      }
+    ]
+  },
+  {
+    "name": "门店订单",
+    "enName": "storeOrder",
+    "linkUrl": "/admin/store/order",
+    "check": 1,
+    "isOnly": 0,
+    "sub": [
+      {
+        "enName": "storeOrder",
+        "name": "全部订单",
+        "linkUrl": "/admin/store/order",
+        "topIndex": 3,
+        "includeApi": ["/api/store/order/*"],
+        "check": 1,
+        "isOnly": 0
+      },
+      {
+        "enName": "selfPickUpOrder",
+        "name": "自提订单",
+        "linkUrl": "/admin/store/order/selfPickUpOrder",
+        "topIndex": 3,
+        "includeApi": ["/api/store/order/*"],
+        "check": 1,
+        "isOnly": 0
+      },
+      {
+        "enName": "intraCityOrder",
+        "name": "同城配送",
+        "linkUrl": "/admin/store/order/intraCityOrder",
+        "topIndex": 3,
+        "includeApi": ["/api/store/order/*"],
+        "check": 1,
+        "isOnly": 0
+      },
+      {
+        "enName": "afterSale",
+        "name": "售后中心",
+        "linkUrl": "/admin/store/order/afterSale",
+        "includeApi": [],
+        "check": 1,
+        "isOnly": 0
+      }
+    ]
+  },
+  {
+    "name": "店员管理",
+    "enName": "storeMember",
+    "linkUrl": "/admin/store/member",
+    "check": 1,
+    "isOnly": 2,
+    "sub": [
+      {
+        "enName": "storeMember",
+        "name": "全部店员",
+        "linkUrl": "/admin/store/member",
+        "topIndex": 4,
+        "includeApi": [],
+        "check": 1,
+        "isOnly": 0
+      },
+      {
+        "enName": "memberPermission",
+        "name": "店员权限",
+        "linkUrl": "/admin/store/member/permission",
+        "topIndex": 4,
+        "includeApi": [],
+        "check": 1,
+        "isOnly": 0
+      }
+    ]
+  }
+]

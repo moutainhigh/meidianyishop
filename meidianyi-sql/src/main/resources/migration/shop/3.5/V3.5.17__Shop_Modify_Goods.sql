@@ -1,0 +1,1 @@
+ALTER TABLE b2c_goods MODIFY is_on_sale tinyint(1) DEFAULT 0 COMMENT '是否在售 0 否 1是';

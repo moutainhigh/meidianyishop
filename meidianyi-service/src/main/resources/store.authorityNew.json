@@ -1,0 +1,79 @@
+[
+  {
+    "enName": "store_list",
+    "name": "门店列表",
+    "linkUrl": "/store/list",
+    "topIndex": 1,
+    "includeApi": []
+  },
+  {
+    "enName": "store_info",
+    "name": "门店详情",
+    "linkUrl": "/store/info",
+    "topIndex": 1,
+    "includeApi": []
+  },
+  {
+    "enName": "store_group",
+    "name": "分组管理",
+    "linkUrl": "/store/group/list",
+    "topIndex": 1,
+    "includeApi": []
+  },
+  {
+    "enName": "all_goods",
+    "name": "全部商品",
+    "linkUrl": "/store/goods/list",
+    "topIndex": 2,
+    "includeApi": ["/api/store/goods"]
+  },
+  {
+    "enName": "sel_out_goods",
+    "name": "售罄商品",
+    "linkUrl": "/store/goods/list",
+    "topIndex": 2,
+    "includeApi": ["/api/store/goods"]
+  },
+  {
+    "enName": "all_order",
+    "name": "全部订单",
+    "linkUrl": "/store/orders/manage/list",
+    "topIndex": 3,
+    "includeApi": ["/api/store/order/*"]
+  },
+  {
+    "enName": "picked_up_order",
+    "name": "自提订单",
+    "linkUrl": "/store/orders/manage/pick/list",
+    "topIndex": 3,
+    "includeApi": ["/api/store/order/*"]
+  },
+  {
+    "enName": "deliver_order",
+    "name": "配送订单",
+    "linkUrl": "/store/orders/manage/deliver/list",
+    "topIndex": 3,
+    "includeApi": ["/api/store/order/*"]
+  },
+  {
+    "enName": "after_sale_center",
+    "name": "售后中心",
+    "linkUrl": "/store/orders/manage/return/list",
+    "topIndex": 3,
+    "includeApi": ["/api/store/return/order"]
+  },
+  {
+    "enName": "staff_list",
+    "name": "全部店员",
+    "linkUrl": "/store/staff/list",
+    "topIndex": 4,
+    "includeApi": []
+  },
+  {
+    "enName": "staff_auth",
+    "name": "店员权限",
+    "linkUrl": "/store/staff/authority",
+    "topIndex": 4,
+    "includeApi": []
+  }
+]

@@ -1,0 +1,2 @@
+ALTER TABLE `b2c_doctor` ADD COLUMN `consultation_total_money` decimal(10,2) not null default 0 comment '咨询总金额';
+ALTER TABLE `b2c_department` ADD COLUMN `first` int(11) not null default 0 comment '优先级';

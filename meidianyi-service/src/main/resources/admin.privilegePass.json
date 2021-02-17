@@ -1,0 +1,19 @@
+{
+    "privilegeLlist": [
+        "user_export",
+        "return_order",
+        "distribution_withdraw",
+        "scan_code_purchase",
+        "card_order_return",
+        "batch_score",
+        "batch_account",
+        "batch_card",
+        "batch_delete",
+        "batch_tag",
+        "change_invite",
+        "goods_export",
+        "order_export"
+    ],
+    "passList": [
+    ]
+}

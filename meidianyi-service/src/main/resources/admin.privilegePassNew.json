@@ -1,0 +1,125 @@
+[{
+		"prName": "prNameList",
+		"name": "全部的名字",
+		"topIndex": -1,
+		"includeApi": [
+			"manual_refund",
+			"extend_receive_time",
+			"return_order",
+			"scan_code_purchase",
+			"scan_code_verify",
+			"card_order_return",
+			"order_export",
+			"user_export",
+			"batch_score",
+			"batch_account",
+			"batch_card",
+			"batch_delete",
+			"batch_tag",
+			"change_invite",
+			"goods_export",
+			"distribution_withdraw"
+		]
+	},
+	{
+		"prName": "manual_refund",
+		"name": "手动退货退款",
+		"topIndex": 0,
+		"includeApi": []
+	},
+	{
+		"prName": "extend_receive_time",
+		"name": "延长自动收货时间",
+		"topIndex": 0,
+		"includeApi": []
+	},
+	{
+		"prName": "return_order",
+		"name": "退款退货审核",
+		"topIndex": 0,
+		"includeApi": []
+	},
+	{
+		"prName": "scan_code_purchase",
+		"name": "扫码购订单强制核销",
+		"topIndex": 0,
+		"includeApi": []
+	},
+	{
+		"prName": "scan_code_verify",
+		"name": "自提订单强制核销",
+		"topIndex": 0,
+		"includeApi": []
+	},
+	{
+		"prName": "card_order_return",
+		"name": "会员卡订单退款",
+		"topIndex": 0,
+		"includeApi": []
+	},
+	{
+		"prName": "order_export",
+		"name": "订单导出",
+		"topIndex": 0,
+		"includeApi": []
+	},
+
+	{
+		"prName": "user_export",
+		"name": "会员导出",
+		"topIndex": 1,
+		"includeApi": []
+	},
+	{
+		"prName": "batch_score",
+		"name": "修改积分",
+		"topIndex": 1,
+		"includeApi": []
+	},
+	{
+		"prName": "batch_account",
+		"name": "修改余额",
+		"topIndex": 1,
+		"includeApi": []
+	},
+	{
+		"prName": "batch_card",
+		"name": "发放会员卡",
+		"topIndex": 1,
+		"includeApi": []
+	},
+	{
+		"prName": "batch_delete",
+		"name": "禁止登录",
+		"topIndex": 1,
+		"includeApi": []
+	},
+	{
+		"prName": "batch_tag",
+		"name": "打标签",
+		"topIndex": 1,
+		"includeApi": []
+	},
+	{
+		"prName": "change_invite",
+		"name": "修改邀请人",
+		"topIndex": 1,
+		"includeApi": []
+	},
+
+
+	{
+		"prName": "goods_export",
+		"name": "商品导出",
+		"topIndex": 2,
+		"includeApi": []
+	},
+
+
+	{
+		"prName": "distribution_withdraw",
+		"name": "分销返利提现",
+		"topIndex": 3,
+		"includeApi": []
+	}
+]

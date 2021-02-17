@@ -1,0 +1,1 @@
+ALTER TABLE `b2c_goods` add column `store_code` varchar(128) comment '药房药品唯一标识';

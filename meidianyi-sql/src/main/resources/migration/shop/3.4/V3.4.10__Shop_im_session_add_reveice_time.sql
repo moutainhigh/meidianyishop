@@ -1,0 +1,1 @@
+ALTER TABLE b2c_im_session add COLUMN receive_start_time TIMESTAMP COMMENT '医师接诊时间' AFTER order_sn;

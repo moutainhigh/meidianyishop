@@ -1,0 +1,1 @@
+INSERT INTO `b2c_app` (`app_id`, `app_name`, `app_secret`) VALUES('200004','STORE服务','8482c1efe6ca4215af1353317938a51c');

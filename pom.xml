@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.meidianyi.shop</groupId>
+	<artifactId>meidianyi</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>meidianyi</name>
+	<description>java mini program</description>
+
+	<packaging>pom</packaging>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+		<java.version>1.8</java.version>
+		<elasticsearch.version>7.3.2</elasticsearch.version>
+		<com.alibaba.version>1.1.22</com.alibaba.version>
+		<cn.hutool.version>5.3.7</cn.hutool.version>
+		<org.jooq.version>3.11.10</org.jooq.version>
+		<org.jooq.jool.version>0.9.12</org.jooq.jool.version>
+		<weixin-java-open.version>3.5.0</weixin-java-open.version>
+		<net.coobird.version>0.4.8</net.coobird.version>
+		<org.tuckey.version>4.0.4</org.tuckey.version>
+		<org.apache.poi.version>3.17</org.apache.poi.version>
+		<com.upyun.version>4.1.2</com.upyun.version>
+		<com.belerweb.version>2.5.0</com.belerweb.version>
+		<com.google.zxing.version>3.3.0</com.google.zxing.version>
+		<org.simpleflatmapper.version>3.11.2</org.simpleflatmapper.version>
+		<commons-io.version>2.6</commons-io.version>
+		<org.apache.ant.version>1.8.4</org.apache.ant.version>
+		<com.google.code.gson.version>2.8.5</com.google.code.gson.version>
+		<javax.persistence-api.version>2.2</javax.persistence-api.version>
+        <flywaydb.version>6.5.5</flywaydb.version>
+		<slf4j-simple.version>1.18.6</slf4j-simple.version>
+        <!-- 微信开发平台使用commons-codec-1.10!!! -->
+        <commons-codec.version>1.10</commons-codec.version>
+        <netty-all.version>4.1.15.Final</netty-all.version>
+	</properties>
+
+
+	<modules>
+		<module>meidianyi-db-tables</module>
+		<module>meidianyi-config</module>
+		<module>meidianyi-background</module>
+		<module>meidianyi-service</module>
+		<module>meidianyi-web</module>
+        <module>meidianyi-common</module>
+        <module>meidianyi-dao</module>
+        <module>meidianyi-sql</module>
+        <module>meidianyi-sql-deploy</module>
+    </modules>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.4.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.meidianyi.shop</groupId>
+				<artifactId>meidianyi-config</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.meidianyi.shop</groupId>
+				<artifactId>meidianyi-db-tables</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.meidianyi.shop</groupId>
+				<artifactId>meidianyi-background</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.meidianyi.shop</groupId>
+				<artifactId>meidianyi-service</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.meidianyi.shop</groupId>
+				<artifactId>meidianyi-web</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.meidianyi.shop</groupId>
+				<artifactId>meidianyi-common</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+            <dependency>
+                <groupId>com.meidianyi.shop</groupId>
+                <artifactId>meidianyi-dao</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meidianyi.shop</groupId>
+                <artifactId>meidianyi-sql</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meidianyi.shop</groupId>
+                <artifactId>meidianyi-sql-deploy</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+			<dependency>
+				<groupId>com.alibaba</groupId>
+				<artifactId>druid</artifactId>
+				<version>${com.alibaba.version}</version>
+			</dependency>
+			<!--编译报错  https://blog.csdn.net/u010696630/article/details/84991116  -->
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-simple</artifactId>
+				<version>${slf4j-simple.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>cn.hutool</groupId>
+				<artifactId>hutool-all</artifactId>
+				<version>${cn.hutool.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.jooq</groupId>
+				<artifactId>jooq</artifactId>
+				<version>${org.jooq.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.jooq</groupId>
+				<artifactId>jool</artifactId>
+				<version>${org.jooq.jool.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.binarywang</groupId>
+				<artifactId>weixin-java-open</artifactId>
+				<version>${weixin-java-open.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.binarywang</groupId>
+				<artifactId>weixin-java-pay</artifactId>
+				<version>${weixin-java-open.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>net.coobird</groupId>
+				<artifactId>thumbnailator</artifactId>
+				<version>${net.coobird.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.tuckey</groupId>
+				<artifactId>urlrewritefilter</artifactId>
+				<version>${org.tuckey.version}</version>
+			</dependency>
+			<!-- 基本依赖，仅操作 xls 格式只需引入此依赖 -->
+			<dependency>
+				<groupId>org.apache.poi</groupId>
+				<artifactId>poi</artifactId>
+				<version>${org.apache.poi.version}</version>
+			</dependency>
+			<!-- 使用 xlsx 格式需要额外引入此依赖 -->
+			<dependency>
+				<groupId>org.apache.poi</groupId>
+				<artifactId>poi-ooxml</artifactId>
+				<version>${org.apache.poi.version}</version>
+			</dependency>
+			<!--又拍云-->
+			<dependency>
+				<groupId>com.upyun</groupId>
+				<artifactId>java-sdk</artifactId>
+				<version>${com.upyun.version}</version>
+			</dependency>
+			<!-- 中文转换对应拼音 -->
+			<dependency>
+				<groupId>com.belerweb</groupId>
+				<artifactId>pinyin4j</artifactId>
+				<version>${com.belerweb.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.google.zxing</groupId>
+				<artifactId>core</artifactId>
+				<version>${com.google.zxing.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.google.zxing</groupId>
+				<artifactId>javase</artifactId>
+				<version>${com.google.zxing.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.simpleflatmapper</groupId>
+				<artifactId>sfm-jdbc</artifactId>
+				<version>${org.simpleflatmapper.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>commons-io</groupId>
+				<artifactId>commons-io</artifactId>
+				<version>${commons-io.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.ant</groupId>
+				<artifactId>ant</artifactId>
+				<version>${org.apache.ant.version}</version>
+			</dependency>
+			<!-- json工具 -->
+			<dependency>
+				<groupId>com.google.code.gson</groupId>
+				<artifactId>gson</artifactId>
+				<version>${com.google.code.gson.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.persistence</groupId>
+				<artifactId>javax.persistence-api</artifactId>
+				<version>${javax.persistence-api.version}</version>
+			</dependency>
+            <!-- 科大讯飞手写汉字识别依赖 -->
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons-codec.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty-all.version}</version>
+            </dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+        </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.vaadin.external.google</groupId>
+                    <artifactId>android-json</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-data-elasticsearch</artifactId>-->
+        <!--</dependency>-->
+	</dependencies>
+</project>
